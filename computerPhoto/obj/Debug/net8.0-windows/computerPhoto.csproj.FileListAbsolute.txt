@@ -1,0 +1,17 @@
+D:\c#_pro\computerPhoto\bin\Debug\net8.0-windows\computerPhoto.exe
+D:\c#_pro\computerPhoto\bin\Debug\net8.0-windows\computerPhoto.deps.json
+D:\c#_pro\computerPhoto\bin\Debug\net8.0-windows\computerPhoto.runtimeconfig.json
+D:\c#_pro\computerPhoto\bin\Debug\net8.0-windows\computerPhoto.dll
+D:\c#_pro\computerPhoto\bin\Debug\net8.0-windows\computerPhoto.pdb
+D:\c#_pro\computerPhoto\obj\Debug\net8.0-windows\computerPhoto.计算器.resources
+D:\c#_pro\computerPhoto\obj\Debug\net8.0-windows\computerPhoto.Form1.zh-Hans-CN.resources
+D:\c#_pro\computerPhoto\obj\Debug\net8.0-windows\computerPhoto.csproj.GenerateResource.cache
+D:\c#_pro\computerPhoto\obj\Debug\net8.0-windows\computerPhoto.GeneratedMSBuildEditorConfig.editorconfig
+D:\c#_pro\computerPhoto\obj\Debug\net8.0-windows\computerPhoto.AssemblyInfoInputs.cache
+D:\c#_pro\computerPhoto\obj\Debug\net8.0-windows\computerPhoto.AssemblyInfo.cs
+D:\c#_pro\computerPhoto\obj\Debug\net8.0-windows\computerPhoto.csproj.CoreCompileInputs.cache
+D:\c#_pro\computerPhoto\obj\Debug\net8.0-windows\computerPhoto.dll
+D:\c#_pro\computerPhoto\obj\Debug\net8.0-windows\refint\computerPhoto.dll
+D:\c#_pro\computerPhoto\obj\Debug\net8.0-windows\computerPhoto.pdb
+D:\c#_pro\computerPhoto\obj\Debug\net8.0-windows\computerPhoto.genruntimeconfig.cache
+D:\c#_pro\computerPhoto\obj\Debug\net8.0-windows\ref\computerPhoto.dll
