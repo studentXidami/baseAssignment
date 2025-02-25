@@ -1,0 +1,14 @@
+D:\c#_pro\computerAdd\bin\Debug\net8.0\computerAdd.exe
+D:\c#_pro\computerAdd\bin\Debug\net8.0\computerAdd.deps.json
+D:\c#_pro\computerAdd\bin\Debug\net8.0\computerAdd.runtimeconfig.json
+D:\c#_pro\computerAdd\bin\Debug\net8.0\computerAdd.dll
+D:\c#_pro\computerAdd\bin\Debug\net8.0\computerAdd.pdb
+D:\c#_pro\computerAdd\obj\Debug\net8.0\computerAdd.GeneratedMSBuildEditorConfig.editorconfig
+D:\c#_pro\computerAdd\obj\Debug\net8.0\computerAdd.AssemblyInfoInputs.cache
+D:\c#_pro\computerAdd\obj\Debug\net8.0\computerAdd.AssemblyInfo.cs
+D:\c#_pro\computerAdd\obj\Debug\net8.0\computerAdd.csproj.CoreCompileInputs.cache
+D:\c#_pro\computerAdd\obj\Debug\net8.0\computerAdd.dll
+D:\c#_pro\computerAdd\obj\Debug\net8.0\refint\computerAdd.dll
+D:\c#_pro\computerAdd\obj\Debug\net8.0\computerAdd.pdb
+D:\c#_pro\computerAdd\obj\Debug\net8.0\computerAdd.genruntimeconfig.cache
+D:\c#_pro\computerAdd\obj\Debug\net8.0\ref\computerAdd.dll
