@@ -1,0 +1,14 @@
+D:\c#_pro\tuopulicijvzhen\bin\Debug\net8.0\tuopulicijvzhen.exe
+D:\c#_pro\tuopulicijvzhen\bin\Debug\net8.0\tuopulicijvzhen.deps.json
+D:\c#_pro\tuopulicijvzhen\bin\Debug\net8.0\tuopulicijvzhen.runtimeconfig.json
+D:\c#_pro\tuopulicijvzhen\bin\Debug\net8.0\tuopulicijvzhen.dll
+D:\c#_pro\tuopulicijvzhen\bin\Debug\net8.0\tuopulicijvzhen.pdb
+D:\c#_pro\tuopulicijvzhen\obj\Debug\net8.0\tuopulicijvzhen.GeneratedMSBuildEditorConfig.editorconfig
+D:\c#_pro\tuopulicijvzhen\obj\Debug\net8.0\tuopulicijvzhen.AssemblyInfoInputs.cache
+D:\c#_pro\tuopulicijvzhen\obj\Debug\net8.0\tuopulicijvzhen.AssemblyInfo.cs
+D:\c#_pro\tuopulicijvzhen\obj\Debug\net8.0\tuopulicijvzhen.csproj.CoreCompileInputs.cache
+D:\c#_pro\tuopulicijvzhen\obj\Debug\net8.0\tuopulicijvzhen.dll
+D:\c#_pro\tuopulicijvzhen\obj\Debug\net8.0\refint\tuopulicijvzhen.dll
+D:\c#_pro\tuopulicijvzhen\obj\Debug\net8.0\tuopulicijvzhen.pdb
+D:\c#_pro\tuopulicijvzhen\obj\Debug\net8.0\tuopulicijvzhen.genruntimeconfig.cache
+D:\c#_pro\tuopulicijvzhen\obj\Debug\net8.0\ref\tuopulicijvzhen.dll

@@ -1,0 +1,14 @@
+D:\c#_pro\aishishafa\bin\Debug\net8.0\aishishafa.exe
+D:\c#_pro\aishishafa\bin\Debug\net8.0\aishishafa.deps.json
+D:\c#_pro\aishishafa\bin\Debug\net8.0\aishishafa.runtimeconfig.json
+D:\c#_pro\aishishafa\bin\Debug\net8.0\aishishafa.dll
+D:\c#_pro\aishishafa\bin\Debug\net8.0\aishishafa.pdb
+D:\c#_pro\aishishafa\obj\Debug\net8.0\aishishafa.GeneratedMSBuildEditorConfig.editorconfig
+D:\c#_pro\aishishafa\obj\Debug\net8.0\aishishafa.AssemblyInfoInputs.cache
+D:\c#_pro\aishishafa\obj\Debug\net8.0\aishishafa.AssemblyInfo.cs
+D:\c#_pro\aishishafa\obj\Debug\net8.0\aishishafa.csproj.CoreCompileInputs.cache
+D:\c#_pro\aishishafa\obj\Debug\net8.0\aishishafa.dll
+D:\c#_pro\aishishafa\obj\Debug\net8.0\refint\aishishafa.dll
+D:\c#_pro\aishishafa\obj\Debug\net8.0\aishishafa.pdb
+D:\c#_pro\aishishafa\obj\Debug\net8.0\aishishafa.genruntimeconfig.cache
+D:\c#_pro\aishishafa\obj\Debug\net8.0\ref\aishishafa.dll

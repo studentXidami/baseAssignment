@@ -1,0 +1,14 @@
+D:\c#_pro\zhishuyinzi\bin\Debug\net8.0\zhishuyinzi.exe
+D:\c#_pro\zhishuyinzi\bin\Debug\net8.0\zhishuyinzi.deps.json
+D:\c#_pro\zhishuyinzi\bin\Debug\net8.0\zhishuyinzi.runtimeconfig.json
+D:\c#_pro\zhishuyinzi\bin\Debug\net8.0\zhishuyinzi.dll
+D:\c#_pro\zhishuyinzi\bin\Debug\net8.0\zhishuyinzi.pdb
+D:\c#_pro\zhishuyinzi\obj\Debug\net8.0\zhishuyinzi.GeneratedMSBuildEditorConfig.editorconfig
+D:\c#_pro\zhishuyinzi\obj\Debug\net8.0\zhishuyinzi.AssemblyInfoInputs.cache
+D:\c#_pro\zhishuyinzi\obj\Debug\net8.0\zhishuyinzi.AssemblyInfo.cs
+D:\c#_pro\zhishuyinzi\obj\Debug\net8.0\zhishuyinzi.csproj.CoreCompileInputs.cache
+D:\c#_pro\zhishuyinzi\obj\Debug\net8.0\zhishuyinzi.dll
+D:\c#_pro\zhishuyinzi\obj\Debug\net8.0\refint\zhishuyinzi.dll
+D:\c#_pro\zhishuyinzi\obj\Debug\net8.0\zhishuyinzi.pdb
+D:\c#_pro\zhishuyinzi\obj\Debug\net8.0\zhishuyinzi.genruntimeconfig.cache
+D:\c#_pro\zhishuyinzi\obj\Debug\net8.0\ref\zhishuyinzi.dll

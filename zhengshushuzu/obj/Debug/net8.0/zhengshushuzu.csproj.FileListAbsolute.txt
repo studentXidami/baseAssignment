@@ -1,0 +1,14 @@
+D:\c#_pro\zhengshushuzu\bin\Debug\net8.0\zhengshushuzu.exe
+D:\c#_pro\zhengshushuzu\bin\Debug\net8.0\zhengshushuzu.deps.json
+D:\c#_pro\zhengshushuzu\bin\Debug\net8.0\zhengshushuzu.runtimeconfig.json
+D:\c#_pro\zhengshushuzu\bin\Debug\net8.0\zhengshushuzu.dll
+D:\c#_pro\zhengshushuzu\bin\Debug\net8.0\zhengshushuzu.pdb
+D:\c#_pro\zhengshushuzu\obj\Debug\net8.0\zhengshushuzu.GeneratedMSBuildEditorConfig.editorconfig
+D:\c#_pro\zhengshushuzu\obj\Debug\net8.0\zhengshushuzu.AssemblyInfoInputs.cache
+D:\c#_pro\zhengshushuzu\obj\Debug\net8.0\zhengshushuzu.AssemblyInfo.cs
+D:\c#_pro\zhengshushuzu\obj\Debug\net8.0\zhengshushuzu.csproj.CoreCompileInputs.cache
+D:\c#_pro\zhengshushuzu\obj\Debug\net8.0\zhengshushuzu.dll
+D:\c#_pro\zhengshushuzu\obj\Debug\net8.0\refint\zhengshushuzu.dll
+D:\c#_pro\zhengshushuzu\obj\Debug\net8.0\zhengshushuzu.pdb
+D:\c#_pro\zhengshushuzu\obj\Debug\net8.0\zhengshushuzu.genruntimeconfig.cache
+D:\c#_pro\zhengshushuzu\obj\Debug\net8.0\ref\zhengshushuzu.dll
