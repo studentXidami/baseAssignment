@@ -1,0 +1,14 @@
+D:\c#_pro\gongchangmoshi\bin\Debug\net8.0\gongchangmoshi.exe
+D:\c#_pro\gongchangmoshi\bin\Debug\net8.0\gongchangmoshi.deps.json
+D:\c#_pro\gongchangmoshi\bin\Debug\net8.0\gongchangmoshi.runtimeconfig.json
+D:\c#_pro\gongchangmoshi\bin\Debug\net8.0\gongchangmoshi.dll
+D:\c#_pro\gongchangmoshi\bin\Debug\net8.0\gongchangmoshi.pdb
+D:\c#_pro\gongchangmoshi\obj\Debug\net8.0\gongchangmoshi.GeneratedMSBuildEditorConfig.editorconfig
+D:\c#_pro\gongchangmoshi\obj\Debug\net8.0\gongchangmoshi.AssemblyInfoInputs.cache
+D:\c#_pro\gongchangmoshi\obj\Debug\net8.0\gongchangmoshi.AssemblyInfo.cs
+D:\c#_pro\gongchangmoshi\obj\Debug\net8.0\gongchangmoshi.csproj.CoreCompileInputs.cache
+D:\c#_pro\gongchangmoshi\obj\Debug\net8.0\gongchangmoshi.dll
+D:\c#_pro\gongchangmoshi\obj\Debug\net8.0\refint\gongchangmoshi.dll
+D:\c#_pro\gongchangmoshi\obj\Debug\net8.0\gongchangmoshi.pdb
+D:\c#_pro\gongchangmoshi\obj\Debug\net8.0\gongchangmoshi.genruntimeconfig.cache
+D:\c#_pro\gongchangmoshi\obj\Debug\net8.0\ref\gongchangmoshi.dll
