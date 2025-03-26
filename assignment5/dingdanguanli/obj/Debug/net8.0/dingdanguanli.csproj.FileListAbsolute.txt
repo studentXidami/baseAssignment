@@ -1,0 +1,14 @@
+D:\c#_pro\dingdanguanli\bin\Debug\net8.0\dingdanguanli.exe
+D:\c#_pro\dingdanguanli\bin\Debug\net8.0\dingdanguanli.deps.json
+D:\c#_pro\dingdanguanli\bin\Debug\net8.0\dingdanguanli.runtimeconfig.json
+D:\c#_pro\dingdanguanli\bin\Debug\net8.0\dingdanguanli.dll
+D:\c#_pro\dingdanguanli\bin\Debug\net8.0\dingdanguanli.pdb
+D:\c#_pro\dingdanguanli\obj\Debug\net8.0\dingdanguanli.GeneratedMSBuildEditorConfig.editorconfig
+D:\c#_pro\dingdanguanli\obj\Debug\net8.0\dingdanguanli.AssemblyInfoInputs.cache
+D:\c#_pro\dingdanguanli\obj\Debug\net8.0\dingdanguanli.AssemblyInfo.cs
+D:\c#_pro\dingdanguanli\obj\Debug\net8.0\dingdanguanli.csproj.CoreCompileInputs.cache
+D:\c#_pro\dingdanguanli\obj\Debug\net8.0\dingdanguanli.dll
+D:\c#_pro\dingdanguanli\obj\Debug\net8.0\refint\dingdanguanli.dll
+D:\c#_pro\dingdanguanli\obj\Debug\net8.0\dingdanguanli.pdb
+D:\c#_pro\dingdanguanli\obj\Debug\net8.0\dingdanguanli.genruntimeconfig.cache
+D:\c#_pro\dingdanguanli\obj\Debug\net8.0\ref\dingdanguanli.dll
