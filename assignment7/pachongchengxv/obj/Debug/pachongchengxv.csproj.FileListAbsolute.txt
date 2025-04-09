@@ -1,0 +1,10 @@
+D:\c#_pro\pachongchengxv\bin\Debug\pachongchengxv.exe.config
+D:\c#_pro\pachongchengxv\bin\Debug\pachongchengxv.exe
+D:\c#_pro\pachongchengxv\bin\Debug\pachongchengxv.pdb
+D:\c#_pro\pachongchengxv\obj\Debug\pachongchengxv.csproj.AssemblyReference.cache
+D:\c#_pro\pachongchengxv\obj\Debug\pachongchengxv.Form1.resources
+D:\c#_pro\pachongchengxv\obj\Debug\pachongchengxv.Properties.Resources.resources
+D:\c#_pro\pachongchengxv\obj\Debug\pachongchengxv.csproj.GenerateResource.cache
+D:\c#_pro\pachongchengxv\obj\Debug\pachongchengxv.csproj.CoreCompileInputs.cache
+D:\c#_pro\pachongchengxv\obj\Debug\pachongchengxv.exe
+D:\c#_pro\pachongchengxv\obj\Debug\pachongchengxv.pdb
