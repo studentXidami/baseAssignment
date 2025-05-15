@@ -1,0 +1,1840 @@
+Unity Editor version:    2022.3.57f1c2 (32588f90613b)
+Branch:                  2022.3/china_unity/release
+Build type:              Release
+Batch mode:              YES
+macOS version:           Version 13.6.7 (Build 22G720)
+Darwin version:          22.6.0
+Architecture:            arm64
+Running under Rosetta:   NO
+Available memory:        16384 MB
+Using pre-set license
+Pro License: YES
+
+COMMAND LINE ARGUMENTS:
+/Applications/Unity/Hub/Editor/2022.3.57f1c2/Unity.app/Contents/MacOS/Unity
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+/Users/bujiangjiu/Downloads/map
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+62775
+Successfully changed project path to: /Users/bujiangjiu/Downloads/map
+/Users/bujiangjiu/Downloads/map
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [8205967616]  Target information:
+
+Player connection [8205967616]  * "[IP] 192.168.1.100 [Port] 0 [Flags] 2 [Guid] 454448167 [EditorId] 454448167 [Version] 1048832 [Id] OSXEditor(0,bujiangjiudeMacBook-Pro.local) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" 
+
+Player connection [8205967616] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [8205967616] Host joined alternative multi-casting on [225.0.0.222:34997]...
+Input System module state changed to: Initialized.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+Refreshing native plugins compatible for Editor in 2.96 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2022.3.57f1c2 (32588f90613b)
+[Subsystems] Discovering subsystems at path /Applications/Unity/Hub/Editor/2022.3.57f1c2/Unity.app/Contents/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path /Users/bujiangjiu/Downloads/map/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+ preferred device: Apple M1 (high power)
+Metal devices available: 1
+0: Apple M1 (high power)
+Using device Apple M1 (high power)
+Initializing Metal device caps: Apple M1
+Initialize mono
+Mono path[0] = '/Applications/Unity/Hub/Editor/2022.3.57f1c2/Unity.app/Contents/Managed'
+Mono path[1] = '/Applications/Unity/Hub/Editor/2022.3.57f1c2/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit-macos'
+Mono config path = '/Applications/Unity/Hub/Editor/2022.3.57f1c2/Unity.app/Contents/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56809
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: /Applications/Unity/Hub/Editor/2022.3.57f1c2/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
+Registered in 0.000766 seconds.
+- Loaded All Assemblies, in  0.184 seconds
+Native extension for OSXStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.144 seconds
+Domain Reload Profiling: 329ms
+	BeginReloadAssembly (47ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (0ms)
+	RebuildCommonClasses (19ms)
+	RebuildNativeTypeToScriptingClass (7ms)
+	initialDomainReloadingComplete (28ms)
+	LoadAllAssembliesAndSetupDomain (83ms)
+		LoadAssemblies (46ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (82ms)
+			TypeCache.Refresh (81ms)
+				TypeCache.ScanAssembly (72ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (0ms)
+	FinalizeReload (144ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (116ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (5ms)
+			SetLoadedEditorAssemblies (4ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (1ms)
+			ProcessInitializeOnLoadAttributes (81ms)
+			ProcessInitializeOnLoadMethodAttributes (25ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Caller must complete domain reload
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.349 seconds
+Native extension for OSXStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.437 seconds
+Domain Reload Profiling: 787ms
+	BeginReloadAssembly (69ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (3ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (10ms)
+	RebuildCommonClasses (20ms)
+	RebuildNativeTypeToScriptingClass (7ms)
+	initialDomainReloadingComplete (21ms)
+	LoadAllAssembliesAndSetupDomain (233ms)
+		LoadAssemblies (164ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (103ms)
+			TypeCache.Refresh (89ms)
+				TypeCache.ScanAssembly (76ms)
+			ScanForSourceGeneratedMonoScriptInfo (10ms)
+			ResolveRequiredComponents (4ms)
+	FinalizeReload (438ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (342ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (3ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (39ms)
+			ProcessInitializeOnLoadAttributes (278ms)
+			ProcessInitializeOnLoadMethodAttributes (18ms)
+			AfterProcessingInitializeOnLoad (1ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (3ms)
+Launching external process: /Applications/Unity/Hub/Editor/2022.3.57f1c2/Unity.app/Contents/Tools/UnityShaderCompiler
+Launched and connected shader compiler UnityShaderCompiler after 0.05 seconds
+Refreshing native plugins compatible for Editor in 1.78 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4118 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 31 unused Assets / (29.7 KB). Loaded Objects now: 4601.
+Memory consumption went from 162.3 MB to 162.3 MB.
+Total: 3.316291 ms (FindLiveObjects: 0.169958 ms CreateObjectMapping: 0.061333 ms MarkObjects: 3.012917 ms  DeleteObjects: 0.070584 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: 3918e3fc78b5a79bad01e8451be0beb8 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Caller must complete domain reload
+Begin MonoManager ReloadAssembly
+Thread 0x17f733000 may have been prematurely finalized
+- Loaded All Assemblies, in  0.380 seconds
+Native extension for OSXStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.418 seconds
+Domain Reload Profiling: 799ms
+	BeginReloadAssembly (195ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (111ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (20ms)
+	RebuildCommonClasses (20ms)
+	RebuildNativeTypeToScriptingClass (8ms)
+	initialDomainReloadingComplete (12ms)
+	LoadAllAssembliesAndSetupDomain (146ms)
+		LoadAssemblies (176ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (12ms)
+			TypeCache.Refresh (7ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (4ms)
+	FinalizeReload (418ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (312ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (3ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (40ms)
+			ProcessInitializeOnLoadAttributes (249ms)
+			ProcessInitializeOnLoadMethodAttributes (15ms)
+			AfterProcessingInitializeOnLoad (1ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (5ms)
+Refreshing native plugins compatible for Editor in 1.36 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4094 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 19 unused Assets / (31.1 KB). Loaded Objects now: 4606.
+Memory consumption went from 165.4 MB to 165.4 MB.
+Total: 3.025333 ms (FindLiveObjects: 0.142625 ms CreateObjectMapping: 0.053334 ms MarkObjects: 2.782041 ms  DeleteObjects: 0.046667 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: 3918e3fc78b5a79bad01e8451be0beb8 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 139101.568334 seconds.
+  path: Assets/Scenes/MenuScene.unity
+  artifactKey: Guid(3017a40caa1624911b2207b81303c52a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/MenuScene.unity using Guid(3017a40caa1624911b2207b81303c52a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '1026baf356b17af8ce661f7f1ecbb4ce') in 0.001154 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Prepare
+Caller must complete domain reload
+Begin MonoManager ReloadAssembly
+Thread 0x17f733000 may have been prematurely finalized
+- Loaded All Assemblies, in  0.244 seconds
+Native extension for OSXStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.821 seconds
+Domain Reload Profiling: 1065ms
+	BeginReloadAssembly (75ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (6ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (18ms)
+	RebuildCommonClasses (20ms)
+	RebuildNativeTypeToScriptingClass (8ms)
+	initialDomainReloadingComplete (13ms)
+	LoadAllAssembliesAndSetupDomain (128ms)
+		LoadAssemblies (147ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (12ms)
+			TypeCache.Refresh (6ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (4ms)
+	FinalizeReload (821ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (337ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (3ms)
+			SetLoadedEditorAssemblies (4ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (42ms)
+			ProcessInitializeOnLoadAttributes (270ms)
+			ProcessInitializeOnLoadMethodAttributes (17ms)
+			AfterProcessingInitializeOnLoad (1ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (5ms)
+Refreshing native plugins compatible for Editor in 1.49 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4093 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 19 unused Assets / (31.1 KB). Loaded Objects now: 4610.
+Memory consumption went from 173.7 MB to 173.7 MB.
+Total: 2.915833 ms (FindLiveObjects: 0.154166 ms CreateObjectMapping: 0.056042 ms MarkObjects: 2.674167 ms  DeleteObjects: 0.030917 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: 3918e3fc78b5a79bad01e8451be0beb8 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 107.536573 seconds.
+  path: Assets/UnityCardGame-dyh/Assets/Assets/Scenes/cardview.unity
+  artifactKey: Guid(7136200213661a74cb0cb9d463ea505b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityCardGame-dyh/Assets/Assets/Scenes/cardview.unity using Guid(7136200213661a74cb0cb9d463ea505b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'c03c01d2a4663fc2a20ce9c022601ae3') in 0.001213 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 45.491059 seconds.
+  path: Assets/UnityCardGame-dyh/Assets/2D Cards Game Art Pack/Sprites/Standard 52 Cards/Standard Cards/Clubs/1_club.png
+  artifactKey: Guid(350b8df3474ca10479a1fa3263a4033c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityCardGame-dyh/Assets/2D Cards Game Art Pack/Sprites/Standard 52 Cards/Standard Cards/Clubs/1_club.png using Guid(350b8df3474ca10479a1fa3263a4033c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '71a03412d74f59fcc1e2c239208e3203') in 0.128492 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000617 seconds.
+  path: Assets/UnityCardGame-dyh/Assets/2D Cards Game Art Pack/Sprites/Standard 52 Cards/Rect Cards/Clubs/3club.png
+  artifactKey: Guid(be17c9ce17a37db4780345ee861bf3d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityCardGame-dyh/Assets/2D Cards Game Art Pack/Sprites/Standard 52 Cards/Rect Cards/Clubs/3club.png using Guid(be17c9ce17a37db4780345ee861bf3d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '16d786ea2b5a35d193200b118c7dd21a') in 0.007611 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.001886 seconds.
+  path: Assets/UnityCardGame-dyh/Assets/2D Cards Game Art Pack/Sprites/Standard 52 Cards/Standard Cards/Hearts/1_heart.png
+  artifactKey: Guid(82d6029e45b525341ac6c0fa70022289) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityCardGame-dyh/Assets/2D Cards Game Art Pack/Sprites/Standard 52 Cards/Standard Cards/Hearts/1_heart.png using Guid(82d6029e45b525341ac6c0fa70022289) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'e9b6ddfa8dde6e05305ce4abcfee7910') in 0.005486 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000900 seconds.
+  path: Assets/UnityCardGame-dyh/Assets/2D Cards Game Art Pack/Sprites/Standard 52 Cards/Rect Cards/Hearts/2heart.png
+  artifactKey: Guid(b4a2e35469b4a294db2660ad423424ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityCardGame-dyh/Assets/2D Cards Game Art Pack/Sprites/Standard 52 Cards/Rect Cards/Hearts/2heart.png using Guid(b4a2e35469b4a294db2660ad423424ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'e985f238f4361001fee8562727b215f7') in 0.005642 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.001867 seconds.
+  path: Assets/UnityCardGame-dyh/Assets/2D Cards Game Art Pack/Sprites/Standard 52 Cards/Standard Cards/Spades/4_spade.png
+  artifactKey: Guid(fa11906ff7a436846ac8ab8dee8afade) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityCardGame-dyh/Assets/2D Cards Game Art Pack/Sprites/Standard 52 Cards/Standard Cards/Spades/4_spade.png using Guid(fa11906ff7a436846ac8ab8dee8afade) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '675378f3207b1ce7457dcaf862fe3411') in 0.005021 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000528 seconds.
+  path: Assets/UnityCardGame-dyh/Assets/2D Cards Game Art Pack/Sprites/Standard 52 Cards/Rect Cards/Spades/2spade.png
+  artifactKey: Guid(128a2e5feee227a42850e341726c71e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityCardGame-dyh/Assets/2D Cards Game Art Pack/Sprites/Standard 52 Cards/Rect Cards/Spades/2spade.png using Guid(128a2e5feee227a42850e341726c71e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '309e360903275d2f76d0bc811da795c8') in 0.005608 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000118 seconds.
+  path: Assets/UnityCardGame-dyh/Assets/2D Cards Game Art Pack/Sprites/Standard 52 Cards/Rect Cards/Hearts/3heart.png
+  artifactKey: Guid(3d8afebcec17c564dbdc2fab461c1b69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityCardGame-dyh/Assets/2D Cards Game Art Pack/Sprites/Standard 52 Cards/Rect Cards/Hearts/3heart.png using Guid(3d8afebcec17c564dbdc2fab461c1b69) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '7c4f0e3f1d5da66ccb1963644381805e') in 0.005467 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000115 seconds.
+  path: Assets/UnityCardGame-dyh/Assets/2D Cards Game Art Pack/Sprites/Standard 52 Cards/Standard Cards/Spades/3_spade.png
+  artifactKey: Guid(b2f38fc7ad9244a4e966458cc29e36bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityCardGame-dyh/Assets/2D Cards Game Art Pack/Sprites/Standard 52 Cards/Standard Cards/Spades/3_spade.png using Guid(b2f38fc7ad9244a4e966458cc29e36bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'aee5597891662c3552e0b88864c1ebb4') in 0.005080 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000070 seconds.
+  path: Assets/UnityCardGame-dyh/Assets/2D Cards Game Art Pack/Sprites/Standard 52 Cards/Rect Cards/Spades/4spade.png
+  artifactKey: Guid(82a0e59bd173c9f4fa2455d7f037c5d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityCardGame-dyh/Assets/2D Cards Game Art Pack/Sprites/Standard 52 Cards/Rect Cards/Spades/4spade.png using Guid(82a0e59bd173c9f4fa2455d7f037c5d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '138d61f95514082664c397da81d85489') in 0.004830 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000076 seconds.
+  path: Assets/UnityCardGame-dyh/Assets/2D Cards Game Art Pack/Sprites/Standard 52 Cards/Rect Cards/Diamonds/4diamond.png
+  artifactKey: Guid(f85109396ca2b1244b7216794d4f3d59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityCardGame-dyh/Assets/2D Cards Game Art Pack/Sprites/Standard 52 Cards/Rect Cards/Diamonds/4diamond.png using Guid(f85109396ca2b1244b7216794d4f3d59) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '9fdb582e9c33b0e6ad3bb9a7c743a5a2') in 0.005350 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/UnityCardGame-dyh/Assets/2D Cards Game Art Pack/Sprites/Standard 52 Cards/Rect Cards/Clubs/2club.png
+  artifactKey: Guid(267d75fb6676c074b8cd3dda13ac75ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityCardGame-dyh/Assets/2D Cards Game Art Pack/Sprites/Standard 52 Cards/Rect Cards/Clubs/2club.png using Guid(267d75fb6676c074b8cd3dda13ac75ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'b97be5f74c77f813bcc889ce94076f5e') in 0.004791 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/UnityCardGame-dyh/Assets/2D Cards Game Art Pack/Sprites/Standard 52 Cards/Standard Cards/Hearts/4_heart.png
+  artifactKey: Guid(33d594337916a5a45a5ecbec5e90daf0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityCardGame-dyh/Assets/2D Cards Game Art Pack/Sprites/Standard 52 Cards/Standard Cards/Hearts/4_heart.png using Guid(33d594337916a5a45a5ecbec5e90daf0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '600c77c5aee5100fc835ce78c17f0572') in 0.005563 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000073 seconds.
+  path: Assets/UnityCardGame-dyh/Assets/2D Cards Game Art Pack/Sprites/Standard 52 Cards/Rect Cards/Hearts/4heart.png
+  artifactKey: Guid(cb8cf84111c3f9b49bb61209f4c032ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityCardGame-dyh/Assets/2D Cards Game Art Pack/Sprites/Standard 52 Cards/Rect Cards/Hearts/4heart.png using Guid(cb8cf84111c3f9b49bb61209f4c032ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '907da474a763b3143d9e0d9561448ae0') in 0.005061 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000074 seconds.
+  path: Assets/UnityCardGame-dyh/Assets/2D Cards Game Art Pack/Sprites/Standard 52 Cards/Rect Cards/Spades/3spade.png
+  artifactKey: Guid(177220bcfbb7e1c4e9ec7ff73f0a0099) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityCardGame-dyh/Assets/2D Cards Game Art Pack/Sprites/Standard 52 Cards/Rect Cards/Spades/3spade.png using Guid(177220bcfbb7e1c4e9ec7ff73f0a0099) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '668029d7f9818d454c002cc221469289') in 0.005128 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/UnityCardGame-dyh/Assets/2D Cards Game Art Pack/Sprites/Standard 52 Cards/Standard Cards/Clubs/4_club.png
+  artifactKey: Guid(039d0cadb0b15eb4f870723a10fb23c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityCardGame-dyh/Assets/2D Cards Game Art Pack/Sprites/Standard 52 Cards/Standard Cards/Clubs/4_club.png using Guid(039d0cadb0b15eb4f870723a10fb23c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'b54a19c399423b37dfaeeb54a5d89c5b') in 0.004364 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.507198 seconds.
+  path: Assets/UnityCardGame-dyh/Assets/2D Cards Game Art Pack/Sprites/Standard 52 Cards/Standard Cards/Clubs/5_club.png
+  artifactKey: Guid(d01f7b03bedcd58488c6de7d82dae3e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityCardGame-dyh/Assets/2D Cards Game Art Pack/Sprites/Standard 52 Cards/Standard Cards/Clubs/5_club.png using Guid(d01f7b03bedcd58488c6de7d82dae3e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '272c33b621826ed3bd8318a0f2a71c88') in 0.005480 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000254 seconds.
+  path: Assets/UnityCardGame-dyh/Assets/2D Cards Game Art Pack/Sprites/Standard 52 Cards/Standard Cards/Hearts/5_heart.png
+  artifactKey: Guid(8d73fc8cdc606f44bbcd2bc80d5f76d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityCardGame-dyh/Assets/2D Cards Game Art Pack/Sprites/Standard 52 Cards/Standard Cards/Hearts/5_heart.png using Guid(8d73fc8cdc606f44bbcd2bc80d5f76d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'a547935fc38d91672bcd81063bf16e3d') in 0.005754 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000058 seconds.
+  path: Assets/UnityCardGame-dyh/Assets/2D Cards Game Art Pack/Sprites/Standard 52 Cards/Rect Cards/Hearts/5heart.png
+  artifactKey: Guid(9e1ef9a64aa856d4591265a4059d0270) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityCardGame-dyh/Assets/2D Cards Game Art Pack/Sprites/Standard 52 Cards/Rect Cards/Hearts/5heart.png using Guid(9e1ef9a64aa856d4591265a4059d0270) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '7196d1ee24c06d16a265809707bc866a') in 0.006641 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000077 seconds.
+  path: Assets/UnityCardGame-dyh/Assets/2D Cards Game Art Pack/Sprites/Standard 52 Cards/Standard Cards/Hearts/6_heart.png
+  artifactKey: Guid(9e04ef4e745c5dd4d8d1dc62f3ff6ab9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityCardGame-dyh/Assets/2D Cards Game Art Pack/Sprites/Standard 52 Cards/Standard Cards/Hearts/6_heart.png using Guid(9e04ef4e745c5dd4d8d1dc62f3ff6ab9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'e16e5d70e90e861f00fdb259fbe4e3b9') in 0.007318 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000312 seconds.
+  path: Assets/UnityCardGame-dyh/Assets/2D Cards Game Art Pack/Sprites/Standard 52 Cards/Rect Cards/Hearts/6heart.png
+  artifactKey: Guid(c5ef5d2567a103440acaed78da371ea4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityCardGame-dyh/Assets/2D Cards Game Art Pack/Sprites/Standard 52 Cards/Rect Cards/Hearts/6heart.png using Guid(c5ef5d2567a103440acaed78da371ea4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '069adbca82346cdc2f2fb19b0b924a4a') in 0.005459 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000134 seconds.
+  path: Assets/UnityCardGame-dyh/Assets/2D Cards Game Art Pack/Sprites/Standard 52 Cards/Rect Cards/Diamonds/6diamond.png
+  artifactKey: Guid(8088a262f3c89fd4a97425b39109147e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityCardGame-dyh/Assets/2D Cards Game Art Pack/Sprites/Standard 52 Cards/Rect Cards/Diamonds/6diamond.png using Guid(8088a262f3c89fd4a97425b39109147e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '3c998e6d6569dd7915f5528d6fa8fd85') in 0.005546 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000556 seconds.
+  path: Assets/UnityCardGame-dyh/Assets/2D Cards Game Art Pack/Sprites/Standard 52 Cards/Rect Cards/Clubs/5club.png
+  artifactKey: Guid(753ccdf36afdf0c4d82b924468d0c8fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityCardGame-dyh/Assets/2D Cards Game Art Pack/Sprites/Standard 52 Cards/Rect Cards/Clubs/5club.png using Guid(753ccdf36afdf0c4d82b924468d0c8fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'b919b138a83198cd319751e3e9700261') in 0.006384 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000295 seconds.
+  path: Assets/UnityCardGame-dyh/Assets/2D Cards Game Art Pack/Sprites/Standard 52 Cards/Rect Cards/Diamonds/5diamond.png
+  artifactKey: Guid(7a138ea833179664f95ca5f4802e25fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityCardGame-dyh/Assets/2D Cards Game Art Pack/Sprites/Standard 52 Cards/Rect Cards/Diamonds/5diamond.png using Guid(7a138ea833179664f95ca5f4802e25fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'f227b997fa19bfe0817eeebd6bde706f') in 0.005317 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000132 seconds.
+  path: Assets/UnityCardGame-dyh/Assets/2D Cards Game Art Pack/Sprites/Standard 52 Cards/Standard Cards/Diamonds/7_diamond.png
+  artifactKey: Guid(453b73ef0d5d2474c95f20349a41374f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityCardGame-dyh/Assets/2D Cards Game Art Pack/Sprites/Standard 52 Cards/Standard Cards/Diamonds/7_diamond.png using Guid(453b73ef0d5d2474c95f20349a41374f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'dc1798674b0b527bea34c0e2532e4f84') in 0.004829 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.010098 seconds.
+  path: Assets/UnityCardGame-dyh/Assets/2D Cards Game Art Pack/Sprites/Standard 52 Cards/Standard Cards/Hearts/7_heart.png
+  artifactKey: Guid(c8554c7b342467e4f846c2484de04c77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityCardGame-dyh/Assets/2D Cards Game Art Pack/Sprites/Standard 52 Cards/Standard Cards/Hearts/7_heart.png using Guid(c8554c7b342467e4f846c2484de04c77) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'a9351a1115219a04cf978949b287bf5b') in 0.005614 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000132 seconds.
+  path: Assets/UnityCardGame-dyh/Assets/2D Cards Game Art Pack/Sprites/Standard 52 Cards/Rect Cards/Diamonds/8diamond.png
+  artifactKey: Guid(bfd9461e6af0f674aad0e218d985d8cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityCardGame-dyh/Assets/2D Cards Game Art Pack/Sprites/Standard 52 Cards/Rect Cards/Diamonds/8diamond.png using Guid(bfd9461e6af0f674aad0e218d985d8cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '574dca2c28ab5a0140f393f335918961') in 0.005918 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000163 seconds.
+  path: Assets/UnityCardGame-dyh/Assets/2D Cards Game Art Pack/Sprites/Standard 52 Cards/Standard Cards/Diamonds/9_diamond.png
+  artifactKey: Guid(4324bc57527587c409ea189b181baded) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityCardGame-dyh/Assets/2D Cards Game Art Pack/Sprites/Standard 52 Cards/Standard Cards/Diamonds/9_diamond.png using Guid(4324bc57527587c409ea189b181baded) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'fb66f6a0780def6266aea10740afc8c9') in 0.005420 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/UnityCardGame-dyh/Assets/2D Cards Game Art Pack/Sprites/Standard 52 Cards/Rect Cards/Diamonds/7diamond.png
+  artifactKey: Guid(8a4dc963fb43dad4faed3c59e1b66b58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityCardGame-dyh/Assets/2D Cards Game Art Pack/Sprites/Standard 52 Cards/Rect Cards/Diamonds/7diamond.png using Guid(8a4dc963fb43dad4faed3c59e1b66b58) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '6b710f5bda34ee2fcdc09f8e83bea17f') in 0.005839 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000573 seconds.
+  path: Assets/UnityCardGame-dyh/Assets/2D Cards Game Art Pack/Sprites/Standard 52 Cards/Standard Cards/Diamonds/8_diamond.png
+  artifactKey: Guid(96d5236b96933c34b991c2c27ab2a8f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityCardGame-dyh/Assets/2D Cards Game Art Pack/Sprites/Standard 52 Cards/Standard Cards/Diamonds/8_diamond.png using Guid(96d5236b96933c34b991c2c27ab2a8f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'ec94e2120ea0162f00a5a412a60385dc') in 0.005768 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000395 seconds.
+  path: Assets/UnityCardGame-dyh/Assets/2D Cards Game Art Pack/Sprites/Standard 52 Cards/Rect Cards/Hearts/7heart.png
+  artifactKey: Guid(7d3a56cd4376cc141824f8b32ded03a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityCardGame-dyh/Assets/2D Cards Game Art Pack/Sprites/Standard 52 Cards/Rect Cards/Hearts/7heart.png using Guid(7d3a56cd4376cc141824f8b32ded03a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '558dad254021fd8d97b2a667716a60e8') in 0.006292 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000215 seconds.
+  path: Assets/UnityCardGame-dyh/Assets/2D Cards Game Art Pack/Sprites/Standard 52 Cards/Rect Cards/Clubs/7club.png
+  artifactKey: Guid(048c7297c535dc6458056f01072795fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityCardGame-dyh/Assets/2D Cards Game Art Pack/Sprites/Standard 52 Cards/Rect Cards/Clubs/7club.png using Guid(048c7297c535dc6458056f01072795fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '3ecd80b082a90d0842115db7648d2900') in 0.005891 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000311 seconds.
+  path: Assets/UnityCardGame-dyh/Assets/2D Cards Game Art Pack/Sprites/Standard 52 Cards/Rect Cards/Spades/8spade.png
+  artifactKey: Guid(3eec1c1c5ff9fbb469f2a9195c6a0bbf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityCardGame-dyh/Assets/2D Cards Game Art Pack/Sprites/Standard 52 Cards/Rect Cards/Spades/8spade.png using Guid(3eec1c1c5ff9fbb469f2a9195c6a0bbf) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'd63a88a59da00d02240a713f22ad7523') in 0.006066 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000283 seconds.
+  path: Assets/UnityCardGame-dyh/Assets/2D Cards Game Art Pack/Sprites/Standard 52 Cards/Standard Cards/Hearts/8_heart.png
+  artifactKey: Guid(a6556f595204d15468b3e6fc9fd29d70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityCardGame-dyh/Assets/2D Cards Game Art Pack/Sprites/Standard 52 Cards/Standard Cards/Hearts/8_heart.png using Guid(a6556f595204d15468b3e6fc9fd29d70) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '54ff788c253da96b3094037e8990a1f9') in 0.005749 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.166282 seconds.
+  path: Assets/UnityCardGame-dyh/Assets/2D Cards Game Art Pack/Sprites/Standard 52 Cards/Rect Cards/Clubs/9club.png
+  artifactKey: Guid(4c3942ae0f6330641a8d4c2dfb1fe8ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityCardGame-dyh/Assets/2D Cards Game Art Pack/Sprites/Standard 52 Cards/Rect Cards/Clubs/9club.png using Guid(4c3942ae0f6330641a8d4c2dfb1fe8ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '7270fa835d0a18ca3df7c9b226a494f0') in 0.006112 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000150 seconds.
+  path: Assets/UnityCardGame-dyh/Assets/2D Cards Game Art Pack/Sprites/Standard 52 Cards/Standard Cards/Clubs/10_club.png
+  artifactKey: Guid(508e53279e12f9a4081ccecd36ffab32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityCardGame-dyh/Assets/2D Cards Game Art Pack/Sprites/Standard 52 Cards/Standard Cards/Clubs/10_club.png using Guid(508e53279e12f9a4081ccecd36ffab32) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '9b1a9500cfd37d658344eb5634b90a36') in 0.005845 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000081 seconds.
+  path: Assets/UnityCardGame-dyh/Assets/2D Cards Game Art Pack/Sprites/Standard 52 Cards/Rect Cards/Hearts/9heart.png
+  artifactKey: Guid(a27a0fa5ca561f9428d2f3da0a16c822) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityCardGame-dyh/Assets/2D Cards Game Art Pack/Sprites/Standard 52 Cards/Rect Cards/Hearts/9heart.png using Guid(a27a0fa5ca561f9428d2f3da0a16c822) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '1c6877a48617b76033306295f7b9c704') in 0.005534 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000161 seconds.
+  path: Assets/UnityCardGame-dyh/Assets/2D Cards Game Art Pack/Sprites/Standard 52 Cards/Standard Cards/Hearts/10_heart.png
+  artifactKey: Guid(9b24b2ce0955e3f4ca05fc6f7d93567c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityCardGame-dyh/Assets/2D Cards Game Art Pack/Sprites/Standard 52 Cards/Standard Cards/Hearts/10_heart.png using Guid(9b24b2ce0955e3f4ca05fc6f7d93567c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'c47760e16c2db6741dd65863fdf66416') in 0.006174 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.020291 seconds.
+  path: Assets/UnityCardGame-dyh/Assets/2D Cards Game Art Pack/Sprites/Standard 52 Cards/Rect Cards/Diamonds/10diamond.png
+  artifactKey: Guid(023cb64173538b24ca03ec083ccb26a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityCardGame-dyh/Assets/2D Cards Game Art Pack/Sprites/Standard 52 Cards/Rect Cards/Diamonds/10diamond.png using Guid(023cb64173538b24ca03ec083ccb26a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '0acd26c71ab48db901e2fec3a9231835') in 0.005823 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000133 seconds.
+  path: Assets/UnityCardGame-dyh/Assets/2D Cards Game Art Pack/Sprites/Standard 52 Cards/Standard Cards/Diamonds/12_diamond.png
+  artifactKey: Guid(936da86d113d4e8408bda1c0ad1948d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityCardGame-dyh/Assets/2D Cards Game Art Pack/Sprites/Standard 52 Cards/Standard Cards/Diamonds/12_diamond.png using Guid(936da86d113d4e8408bda1c0ad1948d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '846cad6d5aa2807633b193c874671b42') in 0.005420 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000169 seconds.
+  path: Assets/UnityCardGame-dyh/Assets/2D Cards Game Art Pack/Sprites/Standard 52 Cards/Standard Cards/Spades/12_spade.png
+  artifactKey: Guid(90666266e36bf0742813dd3dc3193315) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityCardGame-dyh/Assets/2D Cards Game Art Pack/Sprites/Standard 52 Cards/Standard Cards/Spades/12_spade.png using Guid(90666266e36bf0742813dd3dc3193315) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '3bff5f31e2578dbc9218f724f2feed2f') in 0.005434 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000067 seconds.
+  path: Assets/UnityCardGame-dyh/Assets/2D Cards Game Art Pack/Sprites/Backgrounds/background_1.png
+  artifactKey: Guid(0ab585cab5763b041a34f44d96da21ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityCardGame-dyh/Assets/2D Cards Game Art Pack/Sprites/Backgrounds/background_1.png using Guid(0ab585cab5763b041a34f44d96da21ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '1ff77a1ebfee33a050ee097feb49e2a5') in 0.007715 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000113 seconds.
+  path: Assets/UnityCardGame-dyh/Assets/2D Cards Game Art Pack/Sprites/Standard 52 Cards/Rect Cards/Spades/Aspade.png
+  artifactKey: Guid(212c730576f695747a11a4924c5d8b4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityCardGame-dyh/Assets/2D Cards Game Art Pack/Sprites/Standard 52 Cards/Rect Cards/Spades/Aspade.png using Guid(212c730576f695747a11a4924c5d8b4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'febca284d7d926b47e1130c6d61217d5') in 0.005807 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000208 seconds.
+  path: Assets/UnityCardGame-dyh/Assets/2D Cards Game Art Pack/Sprites/Standard 52 Cards/Rect Cards/Diamonds/Adiamond.png
+  artifactKey: Guid(6a6560d74ac574c4f90a30b55353c54a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityCardGame-dyh/Assets/2D Cards Game Art Pack/Sprites/Standard 52 Cards/Rect Cards/Diamonds/Adiamond.png using Guid(6a6560d74ac574c4f90a30b55353c54a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '849b3ab1e6804996c04aeb13cc11c1c1') in 0.005685 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000145 seconds.
+  path: Assets/UnityCardGame-dyh/Assets/2D Cards Game Art Pack/Sprites/Standard 52 Cards/Standard Cards/Clubs/13_club.png
+  artifactKey: Guid(04b5036c16ed6e447a064bb782972fd1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityCardGame-dyh/Assets/2D Cards Game Art Pack/Sprites/Standard 52 Cards/Standard Cards/Clubs/13_club.png using Guid(04b5036c16ed6e447a064bb782972fd1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '9ae1262b24f2968049675a6d38d292c9') in 0.004807 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000226 seconds.
+  path: Assets/UnityCardGame-dyh/Assets/Assets/UI Elements/Black/2x/backward.png
+  artifactKey: Guid(ba13ff1a77d50481f98e328824eaecb7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityCardGame-dyh/Assets/Assets/UI Elements/Black/2x/backward.png using Guid(ba13ff1a77d50481f98e328824eaecb7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '64392ee85796270c56b1d22ca1a9a419') in 0.005223 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000121 seconds.
+  path: Assets/Assets/UI Elements/Black/1x/backward.png
+  artifactKey: Guid(fbda5d1fb389249d893b0f6242582fbf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/UI Elements/Black/1x/backward.png using Guid(fbda5d1fb389249d893b0f6242582fbf) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '658123db16a1093f61db5e4f6f20e631') in 0.005300 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000334 seconds.
+  path: Assets/UnityCardGame-dyh/Assets/2D Cards Game Art Pack/Sprites/Standard 52 Cards/Standard Cards/Clubs/12_club.png
+  artifactKey: Guid(eef50b7453abf254eba00232b05599c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityCardGame-dyh/Assets/2D Cards Game Art Pack/Sprites/Standard 52 Cards/Standard Cards/Clubs/12_club.png using Guid(eef50b7453abf254eba00232b05599c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '670c12067abc63a2bb250bef71a955cb') in 0.005540 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000070 seconds.
+  path: Assets/UnityCardGame-dyh/Assets/2D Cards Game Art Pack/Sprites/Backgrounds/background_2.png
+  artifactKey: Guid(5a5ab60aedf8cbb4e90349c64fbabb18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityCardGame-dyh/Assets/2D Cards Game Art Pack/Sprites/Backgrounds/background_2.png using Guid(5a5ab60aedf8cbb4e90349c64fbabb18) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '8efb30307c8e0ec791fc1d1eadf93005') in 0.008575 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000132 seconds.
+  path: Assets/UnityCardGame-dyh/Assets/2D Cards Game Art Pack/Sprites/Standard 52 Cards/Standard Cards/Diamonds/11_diamond.png
+  artifactKey: Guid(c64e84dcee254094f96adde2a9be7582) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityCardGame-dyh/Assets/2D Cards Game Art Pack/Sprites/Standard 52 Cards/Standard Cards/Diamonds/11_diamond.png using Guid(c64e84dcee254094f96adde2a9be7582) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '23ffa6b90b7e271b8d1802bee091bca3') in 0.005813 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000163 seconds.
+  path: Assets/UnityCardGame-dyh/Assets/2D Cards Game Art Pack/Sprites/Standard 52 Cards/Rect Cards/Hearts/Aheart.png
+  artifactKey: Guid(1268696fddb078e43823fe7a9195fbd5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityCardGame-dyh/Assets/2D Cards Game Art Pack/Sprites/Standard 52 Cards/Rect Cards/Hearts/Aheart.png using Guid(1268696fddb078e43823fe7a9195fbd5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '707f31fef02dd20cd78291456f680a3e') in 0.005904 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000173 seconds.
+  path: Assets/UnityCardGame-dyh/Assets/2D Cards Game Art Pack/Sprites/Standard 52 Cards/Standard Cards/Spades/13_spade.png
+  artifactKey: Guid(7255c5c8f342487489b2f8b45871f544) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityCardGame-dyh/Assets/2D Cards Game Art Pack/Sprites/Standard 52 Cards/Standard Cards/Spades/13_spade.png using Guid(7255c5c8f342487489b2f8b45871f544) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '15a8d832374070adbc02e9720ec80e53') in 0.006049 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000114 seconds.
+  path: Assets/UnityCardGame-dyh/Assets/2D Cards Game Art Pack/Sprites/Standard 52 Cards/Standard Cards/Diamonds/13_diamond.png
+  artifactKey: Guid(581a7018aa7e0cc449d26ea7ba5c68ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityCardGame-dyh/Assets/2D Cards Game Art Pack/Sprites/Standard 52 Cards/Standard Cards/Diamonds/13_diamond.png using Guid(581a7018aa7e0cc449d26ea7ba5c68ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '7444385e33554ba23ea90d8d9f7fcfbc') in 0.006250 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000172 seconds.
+  path: Assets/UnityCardGame-dyh/Assets/2D Cards Game Art Pack/Sprites/Standard 52 Cards/Standard Cards/Hearts/13_heart.png
+  artifactKey: Guid(23a497b14a2fa564a83f68205cf7642d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityCardGame-dyh/Assets/2D Cards Game Art Pack/Sprites/Standard 52 Cards/Standard Cards/Hearts/13_heart.png using Guid(23a497b14a2fa564a83f68205cf7642d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '493755fe011830399140f65220889880') in 0.004808 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000236 seconds.
+  path: Assets/UnityCardGame-dyh/Assets/2D Cards Game Art Pack/Sprites/Standard 52 Cards/Standard Cards/Spades/11_spade.png
+  artifactKey: Guid(40bb000e7fd29094d9bc51c5373cbf60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityCardGame-dyh/Assets/2D Cards Game Art Pack/Sprites/Standard 52 Cards/Standard Cards/Spades/11_spade.png using Guid(40bb000e7fd29094d9bc51c5373cbf60) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '89207a461e77cd52233a428f6638fb49') in 0.004789 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000117 seconds.
+  path: Assets/UnityCardGame-dyh/Assets/2D Cards Game Art Pack/Sprites/Backgrounds/background_3.png
+  artifactKey: Guid(d98b4a9623f19d44ab22521dd7656e80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityCardGame-dyh/Assets/2D Cards Game Art Pack/Sprites/Backgrounds/background_3.png using Guid(d98b4a9623f19d44ab22521dd7656e80) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'e885890da4a5eaa97b81e2c1c30d458c') in 0.007212 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000131 seconds.
+  path: Assets/UnityCardGame-dyh/Assets/2D Cards Game Art Pack/Sprites/Standard 52 Cards/Standard Cards/Clubs/11_club.png
+  artifactKey: Guid(b8b33fd1bba8e824488d5d04b2186236) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityCardGame-dyh/Assets/2D Cards Game Art Pack/Sprites/Standard 52 Cards/Standard Cards/Clubs/11_club.png using Guid(b8b33fd1bba8e824488d5d04b2186236) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'bca2a3baef61ff8ec23b2c2a9a9cbb0a') in 0.005533 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000118 seconds.
+  path: Assets/UnityCardGame-dyh/Assets/2D Cards Game Art Pack/Sprites/Standard 52 Cards/Standard Cards/Hearts/11_heart.png
+  artifactKey: Guid(ba6f3e6e1fe344f49b6b6728eb4d46a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityCardGame-dyh/Assets/2D Cards Game Art Pack/Sprites/Standard 52 Cards/Standard Cards/Hearts/11_heart.png using Guid(ba6f3e6e1fe344f49b6b6728eb4d46a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '2e734b7b32028fe4d812879d24b5ead4') in 0.005498 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.150526 seconds.
+  path: Assets/Assets/UI Elements/Black/2x/backward.png
+  artifactKey: Guid(b325c992a2e264eec992d76c6e5ac6ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/UI Elements/Black/2x/backward.png using Guid(b325c992a2e264eec992d76c6e5ac6ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'a5c7da7cabc153017172601c02933b80') in 0.005111 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000703 seconds.
+  path: Assets/Assets/Raw and SpriteSheets/Black1x.png
+  artifactKey: Guid(c35cefc7f8fbe4d579a1cf4751f72f84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Raw and SpriteSheets/Black1x.png using Guid(c35cefc7f8fbe4d579a1cf4751f72f84) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'c137eb5ba50113cdbaef222b6271db60') in 0.009779 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000400 seconds.
+  path: Assets/Assets/Raw and SpriteSheets/Black2x.png
+  artifactKey: Guid(d1221c4625a2346fbac2e85e9766d5cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Raw and SpriteSheets/Black2x.png using Guid(d1221c4625a2346fbac2e85e9766d5cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '5028cb9657249ba74266f8470d7c158d') in 0.011036 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000167 seconds.
+  path: Assets/UnityCardGame-dyh/Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Bangers SDF.asset
+  artifactKey: Guid(125cb55b44b24c4393181402bc6200e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityCardGame-dyh/Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Bangers SDF.asset using Guid(125cb55b44b24c4393181402bc6200e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'd5a6509019a67921e27f63cfe5eb974a') in 0.115885 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 6
+========================================================================
+Received Import Request.
+  Time since last request: 1.399380 seconds.
+  path: Assets/Assets/UI Elements/White/2x/Button 1.png
+  artifactKey: Guid(eada20674356e4aec96c9fdb9ae672c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/UI Elements/White/2x/Button 1.png using Guid(eada20674356e4aec96c9fdb9ae672c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'e3fcadf350d26be0b490c1a19f721de8') in 0.009614 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000501 seconds.
+  path: Assets/Assets/UI Elements/Black/2x/Button 2.png
+  artifactKey: Guid(cb90e5b9387884d8a86824d29a83d8f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/UI Elements/Black/2x/Button 2.png using Guid(cb90e5b9387884d8a86824d29a83d8f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '4ed70c27072384ef233549a6fab894a9') in 0.009519 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.001308 seconds.
+  path: Assets/Assets/UI Elements/Black/1x/BUtton 2.png
+  artifactKey: Guid(6ceae4e368729422b9ed417cc8435ed8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/UI Elements/Black/1x/BUtton 2.png using Guid(6ceae4e368729422b9ed417cc8435ed8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '58c3425dff3dd6f46cfb13ae49e282e5') in 0.009661 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.028181 seconds.
+  path: Assets/UnityCardGame-dyh/Assets/Assets/UI Elements/Black/1x/BUtton 2.png
+  artifactKey: Guid(c8dfc3a7c88e04ffca56b01f19a66e07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityCardGame-dyh/Assets/Assets/UI Elements/Black/1x/BUtton 2.png using Guid(c8dfc3a7c88e04ffca56b01f19a66e07) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'e2850d515abdbeb4d205d3d7a16f1475') in 0.009049 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.001333 seconds.
+  path: Assets/UnityCardGame-dyh/Assets/Assets/UI Elements/Black/1x/BUtton 3.png
+  artifactKey: Guid(c12bcae86282449cd8a1174a7b0b1826) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityCardGame-dyh/Assets/Assets/UI Elements/Black/1x/BUtton 3.png using Guid(c12bcae86282449cd8a1174a7b0b1826) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'ce0bda3e0c4e99711778f8bc1a800d66') in 0.009798 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.013248 seconds.
+  path: Assets/UnityCardGame-dyh/Assets/Assets/UI Elements/White/1x/BUtton 3.png
+  artifactKey: Guid(a4136513055104abbb2629a56a406117) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityCardGame-dyh/Assets/Assets/UI Elements/White/1x/BUtton 3.png using Guid(a4136513055104abbb2629a56a406117) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'e6f633b6da4629bb5109d2fb86860a3b') in 0.009091 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.003175 seconds.
+  path: Assets/Assets/UI Elements/Black/1x/BUtton 3.png
+  artifactKey: Guid(386d6cfab847f441a911ae5e4c29cfbc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/UI Elements/Black/1x/BUtton 3.png using Guid(386d6cfab847f441a911ae5e4c29cfbc) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '17909d90a515971570cf6ef81f9e9dcc') in 0.008233 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.009098 seconds.
+  path: Assets/UnityCardGame-dyh/Assets/Assets/UI Elements/Black/2x/Button 3.png
+  artifactKey: Guid(bf9d04b8614024d6bbee6efe0d462274) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityCardGame-dyh/Assets/Assets/UI Elements/Black/2x/Button 3.png using Guid(bf9d04b8614024d6bbee6efe0d462274) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'b523345318ba3279954f87a18b7e6cdc') in 0.007692 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.002987 seconds.
+  path: Assets/UnityCardGame-dyh/Assets/Assets/UI Elements/White/2x/Button 3.png
+  artifactKey: Guid(abd04e82517064bf18ef86a266458c92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityCardGame-dyh/Assets/Assets/UI Elements/White/2x/Button 3.png using Guid(abd04e82517064bf18ef86a266458c92) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '2d97d7b9dded76c7386b0b1901fb560a') in 0.008870 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.366186 seconds.
+  path: Assets/Assets/UI Elements/Black/1x/BUtton A.png
+  artifactKey: Guid(416281c0e0dd248fbba24a3f9ecc137e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/UI Elements/Black/1x/BUtton A.png using Guid(416281c0e0dd248fbba24a3f9ecc137e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '41f3b4ac0c0e71353aea6e820e347908') in 0.012018 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.002946 seconds.
+  path: Assets/UnityCardGame-dyh/Assets/Assets/UI Elements/Black/2x/Button A.png
+  artifactKey: Guid(3aad7802a9e6f42cf8b883b12413a90f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityCardGame-dyh/Assets/Assets/UI Elements/Black/2x/Button A.png using Guid(3aad7802a9e6f42cf8b883b12413a90f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '23dc5e1fc16bdf6fdca7de92e8581662') in 0.008678 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000857 seconds.
+  path: Assets/UnityCardGame-dyh/Assets/Assets/UI Elements/White/1x/BUtton B.png
+  artifactKey: Guid(537cae29bd9084095b013529537a02b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityCardGame-dyh/Assets/Assets/UI Elements/White/1x/BUtton B.png using Guid(537cae29bd9084095b013529537a02b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '79daac839a434dbb2982be136a1ce72c') in 0.007587 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.018536 seconds.
+  path: Assets/Assets/UI Elements/White/1x/BUtton A.png
+  artifactKey: Guid(0bef084e805bb4f11a08b4d5cc46536d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/UI Elements/White/1x/BUtton A.png using Guid(0bef084e805bb4f11a08b4d5cc46536d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '083508c8fc25101b6e7deedf8bd41d8d') in 0.013476 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.006608 seconds.
+  path: Assets/UnityCardGame-dyh/Assets/Assets/UI Elements/White/1x/BUtton A.png
+  artifactKey: Guid(2512c527771cf439ebf56970f9dd1a9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityCardGame-dyh/Assets/Assets/UI Elements/White/1x/BUtton A.png using Guid(2512c527771cf439ebf56970f9dd1a9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'e4af86102a2fe33fec8216ff9528f2f1') in 0.009741 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.016107 seconds.
+  path: Assets/UnityCardGame-dyh/Assets/Assets/UI Elements/White/2x/Button B.png
+  artifactKey: Guid(213f379120b864514b913dfdf2baefb2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityCardGame-dyh/Assets/Assets/UI Elements/White/2x/Button B.png using Guid(213f379120b864514b913dfdf2baefb2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'e868397d046f591c68afa28031311bf4') in 0.010771 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.013811 seconds.
+  path: Assets/UnityCardGame-dyh/Assets/Assets/UI Elements/Black/2x/Button B.png
+  artifactKey: Guid(9c1dd1338148c432e800bde39f385b64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityCardGame-dyh/Assets/Assets/UI Elements/Black/2x/Button B.png using Guid(9c1dd1338148c432e800bde39f385b64) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '42dba6631542b4f703e1d7b44657a94f') in 0.012876 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.003510 seconds.
+  path: Assets/UnityCardGame-dyh/Assets/Assets/UI Elements/White/2x/Button C.png
+  artifactKey: Guid(351d1172e9567a64aa38c7890a1c3d98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityCardGame-dyh/Assets/Assets/UI Elements/White/2x/Button C.png using Guid(351d1172e9567a64aa38c7890a1c3d98) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '282589fb61f60fb1b784d8f466e596af') in 0.008158 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.005258 seconds.
+  path: Assets/Assets/UI Elements/White/2x/Button C.png
+  artifactKey: Guid(5551aec705e1c45df8799ad3fec232e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/UI Elements/White/2x/Button C.png using Guid(5551aec705e1c45df8799ad3fec232e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'e12917cc2995261481a10628257a4d29') in 0.011131 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.282179 seconds.
+  path: Assets/UnityCardGame-dyh/Assets/Assets/UI Elements/White/1x/BUtton C.png
+  artifactKey: Guid(3bf5145a5498643fa81a92e0cbb4e567) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityCardGame-dyh/Assets/Assets/UI Elements/White/1x/BUtton C.png using Guid(3bf5145a5498643fa81a92e0cbb4e567) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '6b716e464e57480335e027b34891ccf6') in 0.008414 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000074 seconds.
+  path: Assets/UnityCardGame-dyh/Assets/Assets/UI Elements/Black/2x/Button C.png
+  artifactKey: Guid(72845006defb24db0a19b721e42acd28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityCardGame-dyh/Assets/Assets/UI Elements/Black/2x/Button C.png using Guid(72845006defb24db0a19b721e42acd28) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '590b946f2e7b0dc31d121b5967639b25') in 0.008253 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000348 seconds.
+  path: Assets/UnityCardGame-dyh/Assets/Assets/UI Elements/Black/1x/BUtton C.png
+  artifactKey: Guid(098204eac52a14211a41aac6431335fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityCardGame-dyh/Assets/Assets/UI Elements/Black/1x/BUtton C.png using Guid(098204eac52a14211a41aac6431335fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'a4c0a03b53bb74361801f1de27ac6b27') in 0.007878 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.010472 seconds.
+  path: Assets/UnityCardGame-dyh/Assets/Assets/UI Elements/White/2x/camera.png
+  artifactKey: Guid(6e25e74d93f2a85458c20d2e7958b0a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityCardGame-dyh/Assets/Assets/UI Elements/White/2x/camera.png using Guid(6e25e74d93f2a85458c20d2e7958b0a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '6275b8fab08c4ab26fc523a6196d1f57') in 0.012325 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.072562 seconds.
+  path: Assets/UnityCardGame-dyh/Assets/Assets/UI Elements/Black/1x/camera.png
+  artifactKey: Guid(2dbd211d0a3bb4dfcb0ef9e459011abf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityCardGame-dyh/Assets/Assets/UI Elements/Black/1x/camera.png using Guid(2dbd211d0a3bb4dfcb0ef9e459011abf) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '5878b42cf8c5f6504ec74f5c2f17cec1') in 0.009016 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.002993 seconds.
+  path: Assets/UnityCardGame-dyh/Assets/Assets/UI Elements/White/1x/camera.png
+  artifactKey: Guid(4c5ecfc130e0e4caa9cf8ba381fb9e45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityCardGame-dyh/Assets/Assets/UI Elements/White/1x/camera.png using Guid(4c5ecfc130e0e4caa9cf8ba381fb9e45) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '434ff91587df210205550c805e78a26e') in 0.006588 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.001155 seconds.
+  path: Assets/UnityCardGame-dyh/Assets/2D Cards Game Art Pack/Sprites/Standard 52 Cards/Rect Cards/Card Back/card_back_rect_2.png
+  artifactKey: Guid(87ba300eb2b0f794fb71c2e2b2fe9a1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityCardGame-dyh/Assets/2D Cards Game Art Pack/Sprites/Standard 52 Cards/Rect Cards/Card Back/card_back_rect_2.png using Guid(87ba300eb2b0f794fb71c2e2b2fe9a1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '73091b2211c9ea1dfb666ed3ad1df30b') in 0.013143 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.001444 seconds.
+  path: Assets/UnityCardGame-dyh/Assets/2D Cards Game Art Pack/Sprites/Standard 52 Cards/Rect Cards/Card Back/card_back_rect_1.png
+  artifactKey: Guid(72c75b3d868da94459e34eba13d756fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityCardGame-dyh/Assets/2D Cards Game Art Pack/Sprites/Standard 52 Cards/Rect Cards/Card Back/card_back_rect_1.png using Guid(72c75b3d868da94459e34eba13d756fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '6c1ea535a003db0360962f9700499a3c') in 0.012877 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000833 seconds.
+  path: Assets/Assets/UI Elements/Black/1x/camera.png
+  artifactKey: Guid(9a8a1cb0276c648a1910cf9b54487aa6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/UI Elements/Black/1x/camera.png using Guid(9a8a1cb0276c648a1910cf9b54487aa6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'cbf2fb279f3242693782c1ddc1afe58f') in 0.009384 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.213494 seconds.
+  path: Assets/UnityCardGame-dyh/Assets/2D Cards Game Art Pack/Sprites/Standard 52 Cards/Standard Rounded Cards/Card Back/cardBackBlue.png
+  artifactKey: Guid(6d2b8ecba8bb12d428ce1ef6fab25ee7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityCardGame-dyh/Assets/2D Cards Game Art Pack/Sprites/Standard 52 Cards/Standard Rounded Cards/Card Back/cardBackBlue.png using Guid(6d2b8ecba8bb12d428ce1ef6fab25ee7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '41318359b2846892c5ff22d0274524af') in 0.016303 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.003578 seconds.
+  path: Assets/UnityCardGame-dyh/Assets/2D Cards Game Art Pack/Sprites/Standard 52 Cards/Standard Rounded Cards/Clubs/cardClubs_2.png
+  artifactKey: Guid(6ff2764853012e742973ce25d55f2c34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityCardGame-dyh/Assets/2D Cards Game Art Pack/Sprites/Standard 52 Cards/Standard Rounded Cards/Clubs/cardClubs_2.png using Guid(6ff2764853012e742973ce25d55f2c34) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'f10b581dd6b7aafceb11cef5e6eff5df') in 0.015400 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.002992 seconds.
+  path: Assets/UnityCardGame-dyh/Assets/2D Cards Game Art Pack/Sprites/Standard 52 Cards/Standard Rounded Cards/Clubs/cardClubs_7.png
+  artifactKey: Guid(4354af9c23529874c9a3168a51c5f84f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityCardGame-dyh/Assets/2D Cards Game Art Pack/Sprites/Standard 52 Cards/Standard Rounded Cards/Clubs/cardClubs_7.png using Guid(4354af9c23529874c9a3168a51c5f84f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '66e1438c3b373a242f3c23c2d5105697') in 0.009891 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000628 seconds.
+  path: Assets/UnityCardGame-dyh/Assets/2D Cards Game Art Pack/Sprites/Standard 52 Cards/Standard Rounded Cards/Clubs/cardClubs_6.png
+  artifactKey: Guid(92f1ec9d49ffd82409d0a0236dfcc4f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityCardGame-dyh/Assets/2D Cards Game Art Pack/Sprites/Standard 52 Cards/Standard Rounded Cards/Clubs/cardClubs_6.png using Guid(92f1ec9d49ffd82409d0a0236dfcc4f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '1fa4380396a38791d11e1c420f1a35ee') in 0.011168 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.002095 seconds.
+  path: Assets/UnityCardGame-dyh/Assets/2D Cards Game Art Pack/Sprites/Standard 52 Cards/Standard Rounded Cards/Clubs/cardClubs_5.png
+  artifactKey: Guid(61d8a6f2059beb24d9914dabc3793e7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityCardGame-dyh/Assets/2D Cards Game Art Pack/Sprites/Standard 52 Cards/Standard Rounded Cards/Clubs/cardClubs_5.png using Guid(61d8a6f2059beb24d9914dabc3793e7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'f1da0e73df399309554788e8cafb53d7') in 0.012462 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.533389 seconds.
+  path: Assets/UnityCardGame-dyh/Assets/2D Cards Game Art Pack/Sprites/Standard 52 Cards/Standard Rounded Cards/Clubs/cardClubs_8.png
+  artifactKey: Guid(767087b8e01b60d449193b08981ed0b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityCardGame-dyh/Assets/2D Cards Game Art Pack/Sprites/Standard 52 Cards/Standard Rounded Cards/Clubs/cardClubs_8.png using Guid(767087b8e01b60d449193b08981ed0b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '6b3dec10fb8c86589d466ebe6d1528ef') in 0.015416 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.002773 seconds.
+  path: Assets/UnityCardGame-dyh/Assets/2D Cards Game Art Pack/Sprites/Standard 52 Cards/Standard Rounded Cards/Clubs/cardClubs_J.png
+  artifactKey: Guid(492c1229cee1acd4690ad86cd200a6f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityCardGame-dyh/Assets/2D Cards Game Art Pack/Sprites/Standard 52 Cards/Standard Rounded Cards/Clubs/cardClubs_J.png using Guid(492c1229cee1acd4690ad86cd200a6f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'a1ed02e9cf0ab67d08dd245089f3c6b3') in 0.010579 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.002824 seconds.
+  path: Assets/UnityCardGame-dyh/Assets/2D Cards Game Art Pack/Sprites/Standard 52 Cards/Standard Rounded Cards/Clubs/cardClubs_K.png
+  artifactKey: Guid(02d955eb92cace64c8794e0db5acdf84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityCardGame-dyh/Assets/2D Cards Game Art Pack/Sprites/Standard 52 Cards/Standard Rounded Cards/Clubs/cardClubs_K.png using Guid(02d955eb92cace64c8794e0db5acdf84) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '7e39a5c70fcf68d6b7e297ef5395a173') in 0.012270 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.011850 seconds.
+  path: Assets/UnityCardGame-dyh/Assets/2D Cards Game Art Pack/Sprites/Standard 52 Cards/Standard Rounded Cards/Clubs/cardClubs_Q.png
+  artifactKey: Guid(e6c7574260e6a2640a1b61a877083ba4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityCardGame-dyh/Assets/2D Cards Game Art Pack/Sprites/Standard 52 Cards/Standard Rounded Cards/Clubs/cardClubs_Q.png using Guid(e6c7574260e6a2640a1b61a877083ba4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '5003f8fb10e37d0722ececcd98a8765e') in 0.012674 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.009587 seconds.
+  path: Assets/UnityCardGame-dyh/Assets/2D Cards Game Art Pack/Sprites/Standard 52 Cards/Standard Rounded Cards/Diamonds/cardDiamonds_4.png
+  artifactKey: Guid(023645d96f59783409529c964f320358) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityCardGame-dyh/Assets/2D Cards Game Art Pack/Sprites/Standard 52 Cards/Standard Rounded Cards/Diamonds/cardDiamonds_4.png using Guid(023645d96f59783409529c964f320358) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '538e75c9643c2d1e10a72e4e77ac5727') in 0.012213 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.004258 seconds.
+  path: Assets/UnityCardGame-dyh/Assets/2D Cards Game Art Pack/Sprites/Standard 52 Cards/Standard Rounded Cards/Diamonds/cardDiamonds_6.png
+  artifactKey: Guid(bf3c58b2a3ab60d458d54500fdb61945) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityCardGame-dyh/Assets/2D Cards Game Art Pack/Sprites/Standard 52 Cards/Standard Rounded Cards/Diamonds/cardDiamonds_6.png using Guid(bf3c58b2a3ab60d458d54500fdb61945) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '43a56a1b20b408a31fb4c5f2dab93b14') in 0.010817 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.008993 seconds.
+  path: Assets/UnityCardGame-dyh/Assets/2D Cards Game Art Pack/Sprites/Standard 52 Cards/Standard Rounded Cards/Diamonds/cardDiamonds_8.png
+  artifactKey: Guid(53c5800c8807aef4faca1b5cd6627dc7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityCardGame-dyh/Assets/2D Cards Game Art Pack/Sprites/Standard 52 Cards/Standard Rounded Cards/Diamonds/cardDiamonds_8.png using Guid(53c5800c8807aef4faca1b5cd6627dc7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'ef14f7f24369bc93a93b523996884161') in 0.011765 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.026467 seconds.
+  path: Assets/UnityCardGame-dyh/Assets/2D Cards Game Art Pack/Sprites/Standard 52 Cards/Standard Rounded Cards/Diamonds/cardDiamonds_7.png
+  artifactKey: Guid(9f806d2a58159824182304f3fc67a534) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityCardGame-dyh/Assets/2D Cards Game Art Pack/Sprites/Standard 52 Cards/Standard Rounded Cards/Diamonds/cardDiamonds_7.png using Guid(9f806d2a58159824182304f3fc67a534) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '2f6eb4ca9c7a7993bde6aa3c8bb6b515') in 0.011524 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.046495 seconds.
+  path: Assets/UnityCardGame-dyh/Assets/2D Cards Game Art Pack/Sprites/Standard 52 Cards/Standard Rounded Cards/Diamonds/cardDiamonds_K.png
+  artifactKey: Guid(2dced3849355f2b4ab11b62d18abca0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityCardGame-dyh/Assets/2D Cards Game Art Pack/Sprites/Standard 52 Cards/Standard Rounded Cards/Diamonds/cardDiamonds_K.png using Guid(2dced3849355f2b4ab11b62d18abca0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '82fa72d9fc4d03d7124700d93d44ae39') in 0.012596 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.002005 seconds.
+  path: Assets/UnityCardGame-dyh/Assets/2D Cards Game Art Pack/Sprites/Standard 52 Cards/Standard Rounded Cards/Hearts/cardHearts_4.png
+  artifactKey: Guid(13e5f3ccdda2fd747820cc4bf72d3e8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityCardGame-dyh/Assets/2D Cards Game Art Pack/Sprites/Standard 52 Cards/Standard Rounded Cards/Hearts/cardHearts_4.png using Guid(13e5f3ccdda2fd747820cc4bf72d3e8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'd361f2e3e21eb48c06ef799a8500cf42') in 0.009461 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000243 seconds.
+  path: Assets/UnityCardGame-dyh/Assets/2D Cards Game Art Pack/Sprites/Standard 52 Cards/Standard Rounded Cards/Hearts/cardHearts_10.png
+  artifactKey: Guid(15a9eefeb3562b24e8b4f6f20e0a00c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityCardGame-dyh/Assets/2D Cards Game Art Pack/Sprites/Standard 52 Cards/Standard Rounded Cards/Hearts/cardHearts_10.png using Guid(15a9eefeb3562b24e8b4f6f20e0a00c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'ab0f1bf525ab6b5b13e2f2f4fa903284') in 0.017588 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.003312 seconds.
+  path: Assets/UnityCardGame-dyh/Assets/2D Cards Game Art Pack/Sprites/Standard 52 Cards/Standard Rounded Cards/Hearts/cardHearts_8.png
+  artifactKey: Guid(76ab4ce42ce5a2a41816ebc6715d42b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityCardGame-dyh/Assets/2D Cards Game Art Pack/Sprites/Standard 52 Cards/Standard Rounded Cards/Hearts/cardHearts_8.png using Guid(76ab4ce42ce5a2a41816ebc6715d42b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'dc1f730160a51f458cda84dbf2ab1296') in 0.010464 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000145 seconds.
+  path: Assets/UnityCardGame-dyh/Assets/2D Cards Game Art Pack/Sprites/Standard 52 Cards/Standard Rounded Cards/Hearts/cardHearts_5.png
+  artifactKey: Guid(da161e602de5da74fb8e0397318d8a03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityCardGame-dyh/Assets/2D Cards Game Art Pack/Sprites/Standard 52 Cards/Standard Rounded Cards/Hearts/cardHearts_5.png using Guid(da161e602de5da74fb8e0397318d8a03) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '610b13667273eb3ad3715e6b2a1415e4') in 0.008232 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000433 seconds.
+  path: Assets/UnityCardGame-dyh/Assets/2D Cards Game Art Pack/Sprites/Standard 52 Cards/Standard Rounded Cards/Spades/cardSpades_4.png
+  artifactKey: Guid(919bb6d8e262dbb4da2f99567debabc8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityCardGame-dyh/Assets/2D Cards Game Art Pack/Sprites/Standard 52 Cards/Standard Rounded Cards/Spades/cardSpades_4.png using Guid(919bb6d8e262dbb4da2f99567debabc8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'b19d859fc7a5a80c82ece5b4bb40b6c5') in 0.007036 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.004369 seconds.
+  path: Assets/UnityCardGame-dyh/Assets/2D Cards Game Art Pack/Sprites/Standard 52 Cards/Standard Rounded Cards/Spades/cardSpades_2.png
+  artifactKey: Guid(06cf0e971ab597c4baa1d5ebc85f9092) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityCardGame-dyh/Assets/2D Cards Game Art Pack/Sprites/Standard 52 Cards/Standard Rounded Cards/Spades/cardSpades_2.png using Guid(06cf0e971ab597c4baa1d5ebc85f9092) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'd1ac496468e3bc3d2c9490aa5f73b188') in 0.008045 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.002566 seconds.
+  path: Assets/UnityCardGame-dyh/Assets/2D Cards Game Art Pack/Sprites/Standard 52 Cards/Standard Rounded Cards/Hearts/cardHearts_Q.png
+  artifactKey: Guid(436afa7c054685f48bc8b692c30b0bf2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityCardGame-dyh/Assets/2D Cards Game Art Pack/Sprites/Standard 52 Cards/Standard Rounded Cards/Hearts/cardHearts_Q.png using Guid(436afa7c054685f48bc8b692c30b0bf2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'e7f838b1ec8755773609d51a2ccf5cb0') in 0.009195 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.016527 seconds.
+  path: Assets/UnityCardGame-dyh/Assets/2D Cards Game Art Pack/Sprites/Standard 52 Cards/Standard Rounded Cards/Hearts/cardHearts_9.png
+  artifactKey: Guid(955384ef79f599a4eb1ca9947b01b2ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityCardGame-dyh/Assets/2D Cards Game Art Pack/Sprites/Standard 52 Cards/Standard Rounded Cards/Hearts/cardHearts_9.png using Guid(955384ef79f599a4eb1ca9947b01b2ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '1f2a29ca5650b5b77c59a04f967d28f1') in 0.013552 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.104172 seconds.
+  path: Assets/UnityCardGame-dyh/Assets/2D Cards Game Art Pack/Sprites/Standard 52 Cards/Standard Rounded Cards/Spades/cardSpades_5.png
+  artifactKey: Guid(27ac25b40d884084086bee1dd4d49048) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityCardGame-dyh/Assets/2D Cards Game Art Pack/Sprites/Standard 52 Cards/Standard Rounded Cards/Spades/cardSpades_5.png using Guid(27ac25b40d884084086bee1dd4d49048) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'e3d3c777b1093c7c66e2cca8c8e993f9') in 0.010257 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000947 seconds.
+  path: Assets/UnityCardGame-dyh/Assets/2D Cards Game Art Pack/Sprites/Standard 52 Cards/Standard Rounded Cards/Spades/cardSpades_J.png
+  artifactKey: Guid(39013cabbf42b2f409b33a3eac47db09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityCardGame-dyh/Assets/2D Cards Game Art Pack/Sprites/Standard 52 Cards/Standard Rounded Cards/Spades/cardSpades_J.png using Guid(39013cabbf42b2f409b33a3eac47db09) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '54be157035eb477633fc0ec64de1c546') in 0.015085 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.006027 seconds.
+  path: Assets/UnityCardGame-dyh/Assets/2D Cards Game Art Pack/Sprites/Standard 52 Cards/Standard Rounded Cards/Spades/cardSpades_A.png
+  artifactKey: Guid(7f6daa558f814804687d49e06b6e3f6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityCardGame-dyh/Assets/2D Cards Game Art Pack/Sprites/Standard 52 Cards/Standard Rounded Cards/Spades/cardSpades_A.png using Guid(7f6daa558f814804687d49e06b6e3f6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '31ebff3d88379d29932ce69aac2a1d19') in 0.008839 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.038713 seconds.
+  path: Assets/UnityCardGame-dyh/Assets/2D Cards Game Art Pack/Sprites/Standard 52 Cards/Standard Rounded Cards/Spades/cardSpades_Q.png
+  artifactKey: Guid(997aa58b7aac3104ba0c686fdf1733f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityCardGame-dyh/Assets/2D Cards Game Art Pack/Sprites/Standard 52 Cards/Standard Rounded Cards/Spades/cardSpades_Q.png using Guid(997aa58b7aac3104ba0c686fdf1733f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'c396163931f69625f0b663bd072203eb') in 0.013106 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.002231 seconds.
+  path: Assets/UnityCardGame-dyh/Assets/2D Cards Game Art Pack/Sprites/Characters/char_2.png
+  artifactKey: Guid(9d3976bd76a9e3c44969cbc90af6c33f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityCardGame-dyh/Assets/2D Cards Game Art Pack/Sprites/Characters/char_2.png using Guid(9d3976bd76a9e3c44969cbc90af6c33f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '239996febda1a1ad85a659ced62701ab') in 0.013062 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.001442 seconds.
+  path: Assets/UnityCardGame-dyh/Assets/2D Cards Game Art Pack/Sprites/Characters/char_5.png
+  artifactKey: Guid(fddf572c998c49746937229a7d510e12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityCardGame-dyh/Assets/2D Cards Game Art Pack/Sprites/Characters/char_5.png using Guid(fddf572c998c49746937229a7d510e12) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '4fa96f5c694aa8f6dc161367a65c1f25') in 0.011852 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.003529 seconds.
+  path: Assets/UnityCardGame-dyh/Assets/2D Cards Game Art Pack/Sprites/Characters/char_10.png
+  artifactKey: Guid(5012a46df25579949bcf05260e703b24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityCardGame-dyh/Assets/2D Cards Game Art Pack/Sprites/Characters/char_10.png using Guid(5012a46df25579949bcf05260e703b24) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '191ab5733dc762d9d823260ede418943') in 0.013140 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.001733 seconds.
+  path: Assets/Fantasy Icon Samples/Images/chest.png
+  artifactKey: Guid(23b6da3bd02bf4173aeb6be9d9cb4386) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantasy Icon Samples/Images/chest.png using Guid(23b6da3bd02bf4173aeb6be9d9cb4386) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '6adf4535e3aa2c3826b0b2dfa2e39433') in 0.010590 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.005635 seconds.
+  path: Assets/UnityCardGame-dyh/Assets/2D Cards Game Art Pack/Sprites/Characters/char_9.png
+  artifactKey: Guid(ec5b7971150736f4abee2e940a64c42e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityCardGame-dyh/Assets/2D Cards Game Art Pack/Sprites/Characters/char_9.png using Guid(ec5b7971150736f4abee2e940a64c42e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '9cb49bdee4e052bb435b596e38306f47') in 0.010643 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.011966 seconds.
+  path: Assets/Assets/UI Elements/Extras/Circle128/circle128.png
+  artifactKey: Guid(fb2b8f0ea01db4a83b1ad8d2d35e4218) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/UI Elements/Extras/Circle128/circle128.png using Guid(fb2b8f0ea01db4a83b1ad8d2d35e4218) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '359dd30086886cec9ad748f7edea2635') in 0.009746 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.003344 seconds.
+  path: Assets/Assets/UI Elements/Extras/Circle512/circle512.png
+  artifactKey: Guid(a8c729937dd054a1795b0b02fffa37fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/UI Elements/Extras/Circle512/circle512.png using Guid(a8c729937dd054a1795b0b02fffa37fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '130e5b519442fd97be00070ded41067a') in 0.010896 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.005608 seconds.
+  path: Assets/UnityCardGame-dyh/Assets/Assets/UI Elements/Extras/Circle256/circlefillRy16px256px.png
+  artifactKey: Guid(d76eb5c822fe847c79d8153ae6d95dc9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityCardGame-dyh/Assets/Assets/UI Elements/Extras/Circle256/circlefillRy16px256px.png using Guid(d76eb5c822fe847c79d8153ae6d95dc9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '29854344ea85883476c0a20623435f03') in 0.009967 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.024927 seconds.
+  path: Assets/UnityCardGame-dyh/Assets/Assets/UI Elements/Extras/Circle256/circlefillRy8px256px.png
+  artifactKey: Guid(38d5406366b314978a28d95e606f4148) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityCardGame-dyh/Assets/Assets/UI Elements/Extras/Circle256/circlefillRy8px256px.png using Guid(38d5406366b314978a28d95e606f4148) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '4f4b4c22d2480f0eed658396da7d78c3') in 0.008934 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.135203 seconds.
+  path: Assets/Assets/UI Elements/Extras/Circle512/circlefillRy30px512px.png
+  artifactKey: Guid(3d4c58a90b9664669ae6b1aa4cbf10b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/UI Elements/Extras/Circle512/circlefillRy30px512px.png using Guid(3d4c58a90b9664669ae6b1aa4cbf10b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '33a2c12ae088d840b9dfd11243cbec48') in 0.012014 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.005577 seconds.
+  path: Assets/Assets/UI Elements/Black/2x/cross.png
+  artifactKey: Guid(0a4367a4c27a8497ab879be80e0ff9b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/UI Elements/Black/2x/cross.png using Guid(0a4367a4c27a8497ab879be80e0ff9b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '709e8a568a536e68adecb59d1ad0c981') in 0.013423 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.045024 seconds.
+  path: Assets/Assets/UI Elements/White/2x/cross.png
+  artifactKey: Guid(86960a153ceb744de9d90816e0899fe4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/UI Elements/White/2x/cross.png using Guid(86960a153ceb744de9d90816e0899fe4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '961214fa6d2743f9b99a910da1215538') in 0.010144 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.004126 seconds.
+  path: Assets/UnityCardGame-dyh/Assets/TextMesh Pro/Examples & Extras/Sprites/Default Sprites.png
+  artifactKey: Guid(a0fc465d6cf04254a2938578735e2383) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityCardGame-dyh/Assets/TextMesh Pro/Examples & Extras/Sprites/Default Sprites.png using Guid(a0fc465d6cf04254a2938578735e2383) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'd84cbd078a19ca9f668331578fc068dc') in 0.009831 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000521 seconds.
+  path: Assets/Assets/UI Elements/White/2x/down.png
+  artifactKey: Guid(a9451ed33916c485086d52070e23de8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/UI Elements/White/2x/down.png using Guid(a9451ed33916c485086d52070e23de8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '3a27de4bed128c27024abc3f1e9cedd8') in 0.009065 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.534353 seconds.
+  path: Assets/UnityCardGame-dyh/Assets/Assets/UI Elements/Black/2x/down.png
+  artifactKey: Guid(4a38f4b378d254189b791f75023b47b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityCardGame-dyh/Assets/Assets/UI Elements/Black/2x/down.png using Guid(4a38f4b378d254189b791f75023b47b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'bfb4363edf51e27fda273ef684c4fc58') in 0.011567 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.001323 seconds.
+  path: Assets/Assets/UI Elements/Black/1x/down arrow.png
+  artifactKey: Guid(68a71ba79c0cd4cc2b993a8effe493bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/UI Elements/Black/1x/down arrow.png using Guid(68a71ba79c0cd4cc2b993a8effe493bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'cda62c4cf1469344c7422edbbfcc6dfb') in 0.006853 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.042050 seconds.
+  path: Assets/UnityCardGame-dyh/Assets/Assets/UI Elements/White/2x/down arrow.png
+  artifactKey: Guid(dd5ab83baa480ea44b966d7ca90d09bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityCardGame-dyh/Assets/Assets/UI Elements/White/2x/down arrow.png using Guid(dd5ab83baa480ea44b966d7ca90d09bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '53e5a58e8c716c8523d37bd8da93b5b3') in 0.010499 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000842 seconds.
+  path: Assets/UnityCardGame-dyh/Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Electronic Highway Sign SDF.asset
+  artifactKey: Guid(dc36b3fdc14f47ebb36fd484a67e268a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityCardGame-dyh/Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Electronic Highway Sign SDF.asset using Guid(dc36b3fdc14f47ebb36fd484a67e268a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'ec3ae397ad5ea65ca55b90098b8eb11c') in 0.030639 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 6
+========================================================================
+Received Import Request.
+  Time since last request: 0.002472 seconds.
+  path: Assets/UnityCardGame-dyh/Assets/Assets/UI Elements/Black/1x/exit right.png
+  artifactKey: Guid(f1e59906de7c14b8abdb10e1b17a1602) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityCardGame-dyh/Assets/Assets/UI Elements/Black/1x/exit right.png using Guid(f1e59906de7c14b8abdb10e1b17a1602) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'c2bf0c15de05d927593b4dcb8f2936d0') in 0.010814 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.544922 seconds.
+  path: Assets/UnityCardGame-dyh/Assets/TextMesh Pro/Examples & Extras/Fonts/Oswald-Bold.ttf
+  artifactKey: Guid(c9f6d0e7bc8541498c9a4799ba184ede) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityCardGame-dyh/Assets/TextMesh Pro/Examples & Extras/Fonts/Oswald-Bold.ttf using Guid(c9f6d0e7bc8541498c9a4799ba184ede) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '9ec84906a01dd4d20491f7c103d8af25') in 0.047501 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.109391 seconds.
+  path: Assets/Assets/UI Elements/White/1x/forward.png
+  artifactKey: Guid(dfeefc9f558494232be3f4392e0ae1dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/UI Elements/White/1x/forward.png using Guid(dfeefc9f558494232be3f4392e0ae1dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '2c9941ef68fa3e349424ee277a35552c') in 0.005929 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.001580 seconds.
+  path: Assets/UnityCardGame-dyh/Assets/Assets/UI Elements/White/1x/gamepad1.png
+  artifactKey: Guid(24ffc3bd71de041b29e560c19fe14e05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityCardGame-dyh/Assets/Assets/UI Elements/White/1x/gamepad1.png using Guid(24ffc3bd71de041b29e560c19fe14e05) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'ea35f27af59534fff76b24f27c38a2b2') in 0.005677 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.768312 seconds.
+  path: Assets/Assets/UI Elements/White/1x/gamepad1.png
+  artifactKey: Guid(1c2673141d8f54557a5001e615d88a27) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/UI Elements/White/1x/gamepad1.png using Guid(1c2673141d8f54557a5001e615d88a27) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'd47210cd2629a4a4f3ea9a3058a95fc4') in 0.009682 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.002911 seconds.
+  path: Assets/Assets/UI Elements/White/1x/gamepad2.png
+  artifactKey: Guid(da0eb8ba2506c424baf5d00c03669921) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/UI Elements/White/1x/gamepad2.png using Guid(da0eb8ba2506c424baf5d00c03669921) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '96dc40bd1762f7c2a274056f3b101637') in 0.005653 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.008734 seconds.
+  path: Assets/Assets/UI Elements/White/2x/gamepad2.png
+  artifactKey: Guid(7b5e162a2a07946a48b05179f101c0b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/UI Elements/White/2x/gamepad2.png using Guid(7b5e162a2a07946a48b05179f101c0b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '676a91842e6a845b1753ecc61aac47e6') in 0.007542 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.670408 seconds.
+  path: Assets/Assets/UI Elements/White/1x/hamburger icon.png
+  artifactKey: Guid(fba7ddea08c95470287f5e90f8d54e1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/UI Elements/White/1x/hamburger icon.png using Guid(fba7ddea08c95470287f5e90f8d54e1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'f475616ead00a04fad5420da8597f92e') in 0.010428 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.427101 seconds.
+  path: Assets/UnityCardGame-dyh/Assets/Assets/UI Elements/White/2x/home.png
+  artifactKey: Guid(135427c69ca9fd14c9a77c60701078cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityCardGame-dyh/Assets/Assets/UI Elements/White/2x/home.png using Guid(135427c69ca9fd14c9a77c60701078cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'd5b6bc20cf005f3dc2679f153820cfcb') in 0.012028 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.032524 seconds.
+  path: Assets/Assets/UI Elements/White/2x/info.png
+  artifactKey: Guid(c046664c676154ded8a1279a418bd2a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/UI Elements/White/2x/info.png using Guid(c046664c676154ded8a1279a418bd2a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '94c624df859f5359b51954632949b044') in 0.008476 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000466 seconds.
+  path: Assets/Assets/UI Elements/Black/2x/info.png
+  artifactKey: Guid(0193899514802406f8834eef7798c2bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/UI Elements/Black/2x/info.png using Guid(0193899514802406f8834eef7798c2bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'a969741b38b775383b7e0fe74006df49') in 0.005718 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.009045 seconds.
+  path: Assets/UnityCardGame-dyh/Assets/2D Cards Game Art Pack/Sprites/Standard 52 Cards/Rect Cards/Hearts/Jheart.png
+  artifactKey: Guid(0c2423bd2db245642bd78e71574f2dd8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityCardGame-dyh/Assets/2D Cards Game Art Pack/Sprites/Standard 52 Cards/Rect Cards/Hearts/Jheart.png using Guid(0c2423bd2db245642bd78e71574f2dd8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'dd2f555ecf50d5ae8ed733e9fe3011fc') in 0.008438 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Prepare
+Caller must complete domain reload
+Begin MonoManager ReloadAssembly
+Thread 0x16d7e3000 may have been prematurely finalized
+- Loaded All Assemblies, in  0.368 seconds
+Native extension for OSXStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.926 seconds
+Domain Reload Profiling: 1294ms
+	BeginReloadAssembly (155ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (14ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (81ms)
+	RebuildCommonClasses (23ms)
+	RebuildNativeTypeToScriptingClass (8ms)
+	initialDomainReloadingComplete (19ms)
+	LoadAllAssembliesAndSetupDomain (163ms)
+		LoadAssemblies (182ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (14ms)
+			TypeCache.Refresh (7ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (6ms)
+	FinalizeReload (927ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (655ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (4ms)
+			SetLoadedEditorAssemblies (4ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (83ms)
+			ProcessInitializeOnLoadAttributes (537ms)
+			ProcessInitializeOnLoadMethodAttributes (26ms)
+			AfterProcessingInitializeOnLoad (1ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (10ms)
+Refreshing native plugins compatible for Editor in 1.42 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4093 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 19 unused Assets / (31.2 KB). Loaded Objects now: 4701.
+Memory consumption went from 185.5 MB to 185.4 MB.
+Total: 5.165416 ms (FindLiveObjects: 0.459709 ms CreateObjectMapping: 0.172417 ms MarkObjects: 4.490083 ms  DeleteObjects: 0.042500 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: 3918e3fc78b5a79bad01e8451be0beb8 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+TcpMessagingSession - receive error: operation aborted. errorcode: 89, details: Operation aborted.
+AssetImportWorker is now disconnected from the server
+Process exiting
